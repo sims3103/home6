@@ -1,3 +1,33 @@
 .header {
   background-color: var(--light-gray-bg-color);
+  padding: 45px 10px;
+}
+
+.header-flex-container {
+  display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.logo-link {
+color: var(--accent-color);
+font-size: 3rem;
+/*line-height: 1.25;*/
+font-family: 'Revalia', cursive;
+}
+
+.main-nav {
+
+}
+
+.nav-list {
+display: flex;
+}
+
+.nav-list-item  {
+
+}
+
+.nav-link {
+
 }
