@@ -10,10 +10,12 @@ align-items: center;
 }
 
 .logo-link {
-color: var(--accent-color);
+/*color: var(--accent-color);
 font-size: 3rem;
-/*line-height: 1.25;*/
+line-height: 1.25;
 font-family: 'Revalia', cursive;
+position: relative;
+bottom: calc(3rem/ 5);*/
 }
 
 .main-nav {
