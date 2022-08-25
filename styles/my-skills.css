@@ -1,0 +1,43 @@
+.skills { 
+  width: 100%;
+}
+
+
+.my-skills-article {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+
+
+.my-skills {
+  padding: 20px;
+}
+
+.skills-img {
+  width: 70%;
+  height: 100%;
+}
+
+.text1 {
+  padding: 20px;
+}
+
+.text1::before,
+.text1::after {
+content: '';
+display: block;
+height: 2px;
+position: absolute;
+}
+
+::before {
+  background-color:  red;
+  width: 350px;
+  margin-top: 25px;
+}
+
+.img-my-skills {
+
+}
