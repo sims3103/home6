@@ -30,7 +30,6 @@
     align-items: center;
     justify-content: center;
   }
-
   .greeting-article {
     text-align: left;
     padding: 0;
@@ -39,3 +38,8 @@
   .greeting-heading-margins {
     margin-bottom: 60px;
   }
+
+  .greeting-btn-margins {
+    margin-top: 60px;
+  }
+}

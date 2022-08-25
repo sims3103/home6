@@ -1,12 +1,8 @@
-.skills { 
-  width: 100%;
-}
-
-
-.my-skills-article {
+.skills {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: flex-start;
   height: 100%;
 }
 
@@ -15,9 +11,8 @@
   padding: 20px;
 }
 
-.skills-img {
-  width: 70%;
-  height: 100%;
+.my-skills-article {
+  margin-top: 100px;
 }
 
 .text1 {
@@ -28,16 +23,25 @@
 .text1::after {
 content: '';
 display: block;
-height: 2px;
+height: 4px;
 position: absolute;
 }
 
 ::before {
-  background-color:  red;
+  background-color: var(--accent-color);
   width: 350px;
-  margin-top: 25px;
+  margin-top: 40px;
+}
+
+::after {
+  background-color: var(--progress-bg-color);
+  width: 100px;
+  margin-left: 350px;
+  margin-top: 14px;
 }
 
 .img-my-skills {
-
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
 }
