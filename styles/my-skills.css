@@ -4,6 +4,7 @@
   justify-content: center;
   align-items: flex-start;
   height: 100%;
+  margin: auto 0;
 }
 
 
@@ -12,7 +13,7 @@
 }
 
 .my-skills-article {
-  margin-top: 100px;
+  padding-top: 100px;
 }
 
 .text1 {
@@ -41,7 +42,8 @@ position: absolute;
 }
 
 .img-my-skills {
-  display: flex;
+  display:flex;
   flex-direction: row;
-  justify-content: flex-end;
+  justify-content: center;
+  align-items: center;
 }
