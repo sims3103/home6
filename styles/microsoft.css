@@ -1,0 +1,10 @@
+.microsoft {
+padding: 40px 0;
+}
+
+.logo-microsoft {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
