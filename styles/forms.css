@@ -2,12 +2,41 @@
   padding: 70px 0;
   width: 100%;
   margin-bottom: 95px;
+  background-color: var(--light-gray-bg-color);
 }
 
 .my-forms {
   text-align: center;
+  margin-top: 40px;
 }
 
 .forms-margin {
   margin-bottom: 40px;
+}
+
+.input {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center; 
+}
+
+  .input1 {
+  height: 50px;
+  width: 255px;
+  margin: 15px;
+  padding: 0 20px;
+  border: none;
+}
+
+.input2 {
+  height: 175px;
+  width: 540px;
+  padding: 0 20px;
+  resize: none;
+  border: none;
+}
+
+.btn-forms {
+  margin: 50px 230px;
 }
